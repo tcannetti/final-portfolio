@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Taylor!</title>
+  <!--bootstrap, jquery, popper CDN-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- LOGO -->
+    <a class="navbar-brand" href="#">
+      <img src="../images/red-logo.png" alt="taylor cannetti logo" style="width: 200px;">
+    </a>
+    <!-- Toggle Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/gallery.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container contact-form">
+    <h1 class="display-4">Contact Me</h1>
+    <hr>
+    <div class="row">
+      <div class="col-md-6">
+        <address>123 S. Congress Ave. Austin, TX</address>
+        <p>Email: <a href="mailto:tcannetti@gmail.com">tcannetti@gmail.com</a></p>
+        <p>Phone: <a href="tel:2816369030">(281) 636-9030</a></p>
+      </div>
+
+<!--Contact forms not in second column!-->
+
+      <div class="col-md-6"></div>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" rows="8"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="button">Send</label>
+        <button class="btn btn-primary btn-block">Send</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!--FOOTER-->
+  <footer class="site-footer bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+       <a href="https://www.linkedin.com/in/taylorcannetti">Taylor Cannetti</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="instagram" href="www.instagram.com/taylorpaul"><i class="fab fa-instagram"></i></a></li>
+            <li><a class="github" href="https://github.com/tcannetti"><i class="fab fa-github"></i></a></li>
+            <li><a class="medium" href="https://medium.com/@tcannetti"><i class="fab fa-medium"></i><a class="linkedin" href="https://www.linkedin.com/in/taylorcannetti"><i class="fab fa-linkedin-in"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
