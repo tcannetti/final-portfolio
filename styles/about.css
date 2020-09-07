@@ -1,3 +1,8 @@
+.img-fluid{
+  height: auto;
+  width: auto;
+}
+
 .site-footer
 {
   background-color:#26272b;
