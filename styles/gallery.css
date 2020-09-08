@@ -67,6 +67,11 @@ img.zoom {
   border-radius:100%;
   background-color:#33353d
 }
+
+.social-icons i{
+  padding-top: 25%;
+}
+
 .copyright-text
 {
   margin:0
